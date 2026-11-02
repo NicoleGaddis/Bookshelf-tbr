@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import classes from "./Shelf.module.css"
-import Modal from '../UI/Modal';
+import Modal from '../ui/Modal';
 import useHTTP from '../../../../book-app/src/hooks/useHTTP';
 
 const Shelf = (props) => {
