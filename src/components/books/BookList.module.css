@@ -1,0 +1,45 @@
+.books {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: books-appear 1s ease-out forwards;
+}
+
+.books ul {
+  list-style: none;
+  padding: 0;
+}
+
+.BooksLoading {
+  text-align: center;
+  color: var(--color-text);
+  margin-top: 3rem;
+  font-weight: 600;
+}
+
+.BooksError {
+  text-align: center;
+  color: var(--color-error);
+  margin-top: 3rem;
+  font-weight: bold;
+}
+
+@keyframes books-appear {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.searchContainer input {
+  font: inherit;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  background-color: var(--color-text-light);
+}

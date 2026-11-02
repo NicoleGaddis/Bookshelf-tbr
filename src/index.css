@@ -1,0 +1,33 @@
+:root {
+  /* https://coolors.co/67597a-544e61-6e8894-85baa1-ceeddb */
+  --color-primary: #67597A;
+  --color-primary-dark: #544E61;
+  --color-secondary: #99d9b3;
+  --color-secondary-dark: #85BAA1;
+  --color-bg:  #23252c;
+  --color-surface: #252e32f0;
+  --color-text: #6E8894;
+  --color-text-light:#9fb0b8;
+  --color-text-dark: #4a5b64;
+  --color-border: #332c3d;
+  --color-error: #b23b3b;
+  --font-family: 'Georgia', 'Times New Roman', serif;
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --shadow-sm: 0 2px 8px rgba(44, 37, 35, 0.08);
+  --shadow-md: 0 4px 16px rgba(44, 37, 35, 0.12);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+}

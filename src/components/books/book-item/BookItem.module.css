@@ -1,0 +1,65 @@
+.book {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-secondary);
+  white-space: pre-wrap;
+}
+
+.book:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.book h3 {
+  font-family: var(--font-family);
+  margin-bottom: 0.25rem;
+  color: var(--color-text);
+  font-size: 1.2rem;
+}
+
+.description {
+  font-style: italic;
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+}
+.details {
+  color: var(--color-text-light);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.book h4 {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  font-size: 1.1rem;
+}
+
+.form {
+  text-align: right;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+  color: var(--color-text-dark);
+  padding: 0.25rem 1.5rem;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: var(--color-secondary-dark);
+}
+
+.form p {
+  color: var(--color-error);
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}

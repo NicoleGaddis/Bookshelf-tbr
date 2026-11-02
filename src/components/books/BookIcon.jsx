@@ -1,0 +1,12 @@
+const BookIcon = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="24" width="24">
+            <path
+                fill="#fff" d="M21.5 2h-16c-1.14772 0 -2 0.85228 -2 2s0.85228 2 2 2h15c0.5523 0 
+            1 0.44772 1 1v16c0 0.5523 -0.4477 1 -1 1h-15c-2.25228 0 -4 -1.7477 -4 -4V4c0 -2.25228 1.74772 
+            -4 4 -4h16z" strokeWidth="1">
+            </path>
+        </svg>
+    );
+};
+export default BookIcon;
